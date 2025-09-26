@@ -41,8 +41,8 @@ Durante 7 dias, recebi desafios diários com foco em:
 
 ## 📅 Progresso dos desafios  
 - [x] Dia 1 - Estrutura inicial e organização de pastas  
-- [ ] Dia 2 - Layout e estilização inicial  
-- [ ] Dia 3 - Flexbox e alinhamentos  
+- [x] Dia 2 - Layout e estilização inicial  
+- [x] Dia 3 - Flexbox e alinhamentos  
 - [ ] Dia 4 - Grid layout  
 - [ ] Dia 5 - Componentes visuais e responsividade  
 - [ ] Dia 6 - Ajustes finais de design  
