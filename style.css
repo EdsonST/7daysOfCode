@@ -14,10 +14,16 @@
 
 body {
   font-family: "Inter", sans-serif;
+  padding-top: 80px;
 }
+
 header {
   width: 100%;
   justify-content: space-between;
+  z-index: 1;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
 }
 
 .header {
@@ -90,4 +96,34 @@ header {
   font-size: 20px;
   width: 70%;
   margin: 2em;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 64px 96px 64px;
+}
+
+.result_box {
+  width: 25%;
+}
+
+.result_title {
+  font-weight: 600;
+  letter-spacing: -2%;
+  font-size: 62px;
+  color: var(--color_buton);
+}
+
+.result_sub {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color_main);
+  margin: 1rem 0 1rem 0;
+}
+
+.result_text {
+  font-weight: 400;
+  color: var(--color_menu);
+  font-size: 16px;
 }
