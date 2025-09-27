@@ -8,8 +8,9 @@
 :root {
   --color_menu: #667085;
   --color_sign: rgba(255, 255, 255, 1);
-  --color_buton: #8e2424;
+  --color_buton: rgb(142, 36, 36);
   --color_main: #101828;
+  --color_bg_alert: rgb(255, 239, 239);
 }
 
 body {
@@ -126,4 +127,36 @@ header {
   font-weight: 400;
   color: var(--color_menu);
   font-size: 16px;
+}
+
+.resourses {
+  display: inline-block;
+  justify-items: center;
+}
+
+.resourses_alert {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color_buton);
+  background-color: var(--color_bg_alert);
+  padding: 5px;
+  border-radius: 24px;
+}
+
+.resourses_title {
+  margin: 0.7em 0;
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: -2%;
+  color: var(--color_main);
+}
+
+.resourses_text {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color_menu);
+}
+
+.resourses_img {
+  padding: 5%;
 }
