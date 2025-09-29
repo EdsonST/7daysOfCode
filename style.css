@@ -11,6 +11,7 @@
   --color_buton: rgb(142, 36, 36);
   --color_main: #101828;
   --color_bg_alert: rgb(255, 239, 239);
+  --color_border: hsl(220, 17%, 93%);
 }
 
 body {
@@ -159,4 +160,79 @@ header {
 
 .resourses_img {
   padding: 5%;
+}
+
+.open_vacancies {
+  padding: 3% 20% 3% 20%;
+}
+
+.position {
+  margin-bottom: 3%;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.box_vacancies {
+  border-radius: 12px;
+  border: 1px solid var(--color_border);
+  display: block;
+  padding: 1%;
+  margin-bottom: 18px;
+}
+
+.cargo {
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.vacancies {
+  display: flex;
+  gap: 3%;
+  font-weight: 500;
+  color: var(--color_menu);
+  margin-bottom: 18px;
+}
+
+.review {
+  justify-items: center;
+  text-align: center;
+  background-color: var(--color_bg_alert);
+  margin: 0 64px 96px 64px;
+  padding: 3% 5%;
+  width: 80%;
+  border-radius: 24px;
+}
+
+.review_text {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color_buton);
+  margin-bottom: 3%;
+}
+
+.review_title {
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: -2%;
+  margin-bottom: 3%;
+  color: var(--color_main);
+  width: 90%;
+}
+
+.colaborate {
+  margin-bottom: 1%;
+}
+
+.colaborate_name {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color_main);
+}
+
+.colaborate_cargo {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color_menu);
 }
