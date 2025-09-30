@@ -7,7 +7,7 @@
 
 :root {
   --color_menu: #667085;
-  --color_sign: rgba(255, 255, 255, 1);
+  --color_sign: rgba(249, 250, 251, 1);
   --color_buton: rgb(142, 36, 36);
   --color_main: #101828;
   --color_bg_alert: rgb(255, 239, 239);
@@ -235,4 +235,53 @@ header {
   font-weight: 400;
   font-size: 14px;
   color: var(--color_menu);
+}
+
+footer {
+  display: block;
+  background-color: var(--color_sign);
+  width: 100%;
+}
+
+.footer_title {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -2%;
+  padding: 5% 15% 1% 15%;
+}
+
+.footer_text {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color_menu);
+  text-align: center;
+  padding: 0 15% 2% 15%;
+}
+
+.footer_data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.footer_email {
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 10px 18px;
+  border: 1px solid var(--color_menu);
+  width: 27%;
+}
+
+.footer_info {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  color: var(--color_menu);
+  padding-bottom: 2%;
 }
