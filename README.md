@@ -30,7 +30,7 @@ Durante 7 dias, recebi desafios diários com foco em:
 
 ## 🖼️ Prévia do Projeto
 
-(Adicione aqui um print da tela ou deploy do projeto no GitHub Pages quando estiver pronto)
+![Prévia](./Assets/project.png)
 
 ---
 
